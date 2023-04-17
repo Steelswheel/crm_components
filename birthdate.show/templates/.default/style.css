@@ -1,0 +1,117 @@
+.birthdate-show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+}
+
+.birthdate-show-wrap {
+    padding: 0 40px 0 20px;
+}
+
+.birthdate-show svg {
+    width: 45px;
+    height: 45px;
+}
+
+.birthdate-show svg path {
+    fill: #FFF;
+}
+
+.birthdate-show .birthdate-show-icon[data-active='false'] {
+    user-select: none;
+    opacity: 0.3;
+}
+
+.birthdate-show .birthdate-show-partners-count, .birthdate-show .birthdate-show-employees-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    background-color: #FFF;
+    border-radius: 50%;
+    min-width: 18px;
+    min-height: 18px;
+    color: #3b506e;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.3;
+}
+
+.birthdate-show .birthdate-show-employees-count {
+    top: 7px;
+}
+
+.birthdate-show .birthdate-show-partners-count {
+    bottom: 7px;
+}
+
+.birthdate-show .birthdate-show-employees-count[data-active='true'] {
+    background-color: #f0fc62;
+    opacity: 1;
+}
+
+.birthdate-show .birthdate-show-partners-count[data-active='true'] {
+    background-color: #fc7462;
+    opacity: 1;
+}
+
+.birthdate-show .birthdate-show-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    background-color: #daeff5;
+    padding: 0 15px;
+    height: 0;
+    visibility: hidden;
+}
+
+.birthdate-show .birthdate-show-list[data-active='true'] {
+    padding: 10px 15px;
+    height: auto;
+    visibility: visible;
+}
+
+.birthdate-show .birthdate-show-list .birthdate-show-list-employees, .birthdate-show .birthdate-show-list .birthdate-show-list-partners {
+    height: 0;
+    visibility: hidden;
+}
+
+.birthdate-show .birthdate-show-list[data-active='true'] .birthdate-show-list-employees, .birthdate-show .birthdate-show-list[data-active='true'] .birthdate-show-list-partners {
+    height: 100%;
+    visibility: visible;
+}
+
+.birthdate-show .birthdate-show-list h2 {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.birthdate-show .birthdate-show-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.birthdate-show .birthdate-show-list li {
+    list-style-type: none;
+    white-space: nowrap;
+    padding: 2px;
+}
+
+.birthdate-show-list-partners-congratulate {
+    color: red;
+}
+
+.birthdate-show-list-partners-congratulated {
+    color: green;
+}
+
+.birthdate-show-list-partners-congratulated:hover {
+    color: green;
+}

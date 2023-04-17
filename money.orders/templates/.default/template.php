@@ -1,0 +1,1 @@
+<div data-vue-component='money-order'></div>

@@ -1,0 +1,1 @@
+<div data-vue-component="reports.all.SavingsReport_savings-report"></div>

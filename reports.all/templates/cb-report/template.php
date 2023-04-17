@@ -1,0 +1,1 @@
+<div data-vue-component="reports.all.CbReport_report-table"></div>

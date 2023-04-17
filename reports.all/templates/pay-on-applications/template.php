@@ -1,0 +1,1 @@
+<div data-vue-component="reports.all.PayOnApplications_pay-on-applications"></div>

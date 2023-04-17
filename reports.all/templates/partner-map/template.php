@@ -1,0 +1,1 @@
+<div data-vue-component="reports.all.PartnerMap_partner-map"></div>

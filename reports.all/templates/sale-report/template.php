@@ -1,0 +1,1 @@
+<div data-vue-component="reports.all.SaleReport_sale-report"></div>

@@ -1,0 +1,43 @@
+.sbp-list .main-ui-filter-search {
+    border: 1px solid #d8d8d8;
+    margin-left: 10px;
+}
+
+#sbp-list_table {
+    border-collapse: collapse;
+}
+
+#sbp-list_table th, #sbp-list_table td {
+    border: 1px solid #d8d8d8;
+    text-align: center;
+}
+
+.sbp-list-tabs {
+    display: flex;
+    align-items: center;
+    margin: 0 0 2rem 0;
+    background-color: #FFF;
+}
+
+.sbp-list-tabs .sbp-list-tab {
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    border-bottom: 2px solid transparent;
+    color: #909399;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: border-color .3s, background-color .3s, сolor .3s;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.sbp-list-tabs .sbp-list-tab[data-active='true'] {
+    border-bottom: 2px solid #409EFF;
+    color: #303133;
+}
+
+.sbp-list .sbp-list-tab-item[data-active='false'] {
+    display: none;
+}
