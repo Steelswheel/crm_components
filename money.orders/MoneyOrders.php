@@ -177,7 +177,7 @@ class MoneyOrders
             foreach ($p->documents as $d) {
 
                 $inn = $d->{'ПлательщикИНН'};
-                $payment = $inn === '6829140628' ? 'OUT' : 'IN';
+                $payment = $inn === '' ? 'OUT' : 'IN';
                 $itemDoc = [
                     'payment' => $payment,
                     'number' => $d->{'Номер'},
